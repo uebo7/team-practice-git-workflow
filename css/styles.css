@@ -1,0 +1,46 @@
+html, body {
+    height: 100%;
+    width: 100%;
+}
+
+body {
+    background-color: black;
+    display: flex;
+    justify-content: center;
+}
+
+.top {
+    width: 20px;
+    height: 20px;
+    background-color: yellow;
+    border-radius: 10px;
+    position: absolute;
+    top: 30px;
+}
+
+.bottom {
+    width: 20px;
+    height: 20px;
+    background-color: yellow;
+    border-radius: 10px;
+    position: absolute;
+    bottom: 30px;
+}
+
+.aside {
+    border: 2px solid white;
+    color: white;
+    height: 60%;
+    width: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    right: 0%;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+}
+
